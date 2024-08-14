@@ -7,44 +7,26 @@
 
 # Overview of Project 
 
-Project: Predictive Modeling with Linear Regression)
+Project: Predictive Modeling with Linear Regression
 
-### Objectives:
-1. **Predict Housing Prices**: Use linear regression to model and predict housing prices based on various features.
-2. **Evaluate Model Performance**: Assess the performance of the linear regression model using metrics like Mean Squared Error (MSE) and R-squared.
-3. **Visualize Results**: Create a visualization to compare actual vs. predicted values and understand the model's accuracy.
+### Objectives
+This project aims to analyze insurance claims data and build a predictive model to estimate the number of claims based on various features. The primary objectives include:
+- Exploring and visualizing the distribution of key numerical features in the dataset.
+- Handling categorical variables using One-Hot Encoding.
+- Preprocessing the data using scaling and encoding techniques.
+- Developing and evaluating a Generalized Linear Model (GLM) with a Poisson distribution to predict the number of claims.
 
-### Key Activities:
-1. **Data Loading**:
-   - Fetch the California housing dataset.
-   - Convert the dataset into a pandas DataFrame for easier manipulation.
+### Key Concepts
+- **Data Preprocessing**: Handling missing values, encoding categorical variables, and scaling numerical features.
+- **Exploratory Data Analysis (EDA)**: Visualizing the distributions of key variables such as `age_of_driver`, `car_age`, and `number_of_claims`.
+- **Generalized Linear Model (GLM)**: Applying a Poisson regression model to predict count-based outcomes.
+- **Feature Engineering**: Transforming features using `ColumnTransformer` to prepare the data for modeling.
 
-2. **Data Preparation**:
-   - Split the dataset into training and testing sets.
-   - Separate features and target variables.
+### Tools and Libraries Used
+- **Pandas**: For data manipulation and analysis.
+- **Matplotlib & Seaborn**: For data visualization.
+- **Scikit-Learn**: For data preprocessing, encoding, and splitting the dataset.
+- **Statsmodels**: For building and analyzing the Generalized Linear Model (GLM).
+- **Python**: The programming language used for this project.
 
-3. **Model Training**:
-   - Initialize a linear regression model.
-   - Train the model using the training data.
-
-4. **Model Evaluation**:
-   - Make predictions on the test set.
-   - Calculate performance metrics (MSE and R-squared).
-
-5. **Visualization**:
-   - Create a scatter plot to compare actual and predicted values.
-   - Add a reference line to illustrate ideal predictions.
-
-### Tools Used:
-1. **Python Libraries**:
-   - **NumPy**: For numerical operations.
-   - **pandas**: For data manipulation and analysis.
-   - **Matplotlib**: For creating visualizations.
-   - **scikit-learn**: For dataset fetching, model training, and evaluation.
-
-2. **Linear Regression Model**:
-   - Utilized from scikit-learn’s `LinearRegression` class to fit the model and make predictions.
-
-3. **Metrics**:
-   - **Mean Squared Error (MSE)**: For measuring prediction accuracy.
-   - **R-squared Score**: For evaluating the proportion of variance explained by the model.
+---
