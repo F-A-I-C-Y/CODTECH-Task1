@@ -1,13 +1,4 @@
-- **Name**: FAICY ANNIE TOM
-- **Company**: CODTECH IT SOLUTIONS
-- **ID**: CT08DS5797
-- **Domain**: DATA SCIENCE
-- **Duration**: August to September 2024
-- **Mentor**: MUZAMMIL AHMED
-
-# Overview of Project 
-
-Project: Predictive Modeling with Linear Regression
+# Predictive Modeling with Linear Regression
 
 ### Objectives
 This project aims to analyze insurance claims data and build a predictive model to estimate the number of claims based on various features. The primary objectives include:
